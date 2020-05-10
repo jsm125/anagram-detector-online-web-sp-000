@@ -11,6 +11,6 @@ def match(words2)
   words2.select do |words|
     if words.split(//).sort == @words.split(//).sort
 
-  end
+
 end
 end
