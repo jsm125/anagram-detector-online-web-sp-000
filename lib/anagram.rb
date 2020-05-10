@@ -8,7 +8,7 @@ def initialize(words)
 end
 
 def match(words2)
-  words2.each do |words|
+  words2.each do |words2|
     if words2.split.sort(//) == @words.split.sort(//)
       true
     else
