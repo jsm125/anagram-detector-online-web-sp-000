@@ -7,7 +7,7 @@ def initialize(words)
   @words = words
 end
 
-def match(%w(words2))
+def match(words2)
   words2.each do |words|
     if words2.split.sort(//) == @words.split.sort(//)
       words2
