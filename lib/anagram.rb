@@ -12,7 +12,8 @@ def match(words2)
     if words2.split.sort(//) == @words.split.sort(//)
       true
     else
-      false 
+      false
     end
   end
+end
 end
