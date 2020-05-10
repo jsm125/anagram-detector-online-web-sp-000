@@ -9,7 +9,7 @@ end
 
 def match(words2)
   words2.each do |words|
-    if words.split.sort(//) == @words.split.sort(//)
+    if words2.split.sort(//) == @words.split.sort(//)
       true
     else
       false
