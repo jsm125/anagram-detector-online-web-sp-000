@@ -10,7 +10,7 @@ end
 def match(words2)
   words2.select do |words|
     if words2.split(//).sort == @words.split(//).sort
-      words2
+      true
     else
       false
     end
