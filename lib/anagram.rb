@@ -11,5 +11,7 @@ def match(words2)
   words2.each do |@words|
     if words2.split.sort(//) == @words.split.sort(//)
       true
-
+    else
+      false 
+    end
 end
